@@ -17,10 +17,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}
+      <body className={inter.className}>
         <div className="max-w-screen">
           <Navbar />
-          <div className="max-auto"
+          <div className="container mx-auto mt-4">{children}</div>
         </div>
       </body>
     </html>
